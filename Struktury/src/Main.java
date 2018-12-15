@@ -18,6 +18,15 @@ public class Main {
 //                System.out.println(suma);
 //            }
 //        }
+
+        int i = 10;
+        int n = 10;
+
+        for (i = 1; i < n; i++) {
+            System.out.println("Sprawdź gita");
+        }
+        System.out.println();
+
         wywolajONP();
     }
     public static void wywolajONP(){
