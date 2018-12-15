@@ -30,4 +30,8 @@ public class Main {
 
         new ONP().run(podzial);
     }
+
+    public static void mojaNowaMetodaJava() {
+        System.out.println("Dodam nową metodę");
+    }
 }
