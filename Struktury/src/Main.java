@@ -18,6 +18,14 @@ public class Main {
 //                System.out.println(suma);
 //            }
 //        }
+
+        int i = 10;
+        int n = 10;
+
+        for (i = 1; i < n; i++) {
+            System.out.println("Sprawdź");
+        }
+
         wywolajONP();
     }
     public static void wywolajONP(){
