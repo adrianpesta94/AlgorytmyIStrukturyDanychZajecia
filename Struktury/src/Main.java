@@ -1,3 +1,4 @@
+import Zadania.Algorytmy;
 import algorytmy.ONP;
 
 import java.util.Scanner;
@@ -19,16 +20,20 @@ public class Main {
 //            }
 //        }
 
-        int i = 10;
-        int n = 10;
+//        int i = 10;
+//        int n = 10;
+//
+//        for (i = 1; i < n; i++) {
+//            System.out.println("Sprawdź gita");
+//        }
+//        System.out.println();
+//
+//        wywolajONP();
 
-        for (i = 1; i < n; i++) {
-            System.out.println("Sprawdź gita");
-        }
-        System.out.println();
-
-        wywolajONP();
+        Algorytmy algo = new Algorytmy();
+        System.out.println(algo.sortuj());
     }
+
     public static void wywolajONP(){
         Scanner sc = new Scanner(System.in);
 
