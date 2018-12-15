@@ -23,8 +23,10 @@ public class Main {
         int n = 10;
 
         for (i = 1; i < n; i++) {
-            System.out.println("Sprawdź");
+            System.out.println("Sprawdź gita");
         }
+
+        System.out.println();
 
         wywolajONP();
     }
